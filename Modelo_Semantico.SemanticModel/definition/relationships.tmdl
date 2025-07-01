@@ -1,0 +1,4 @@
+relationship 31eebe44-40c4-37e3-90c2-111c31496635
+	fromColumn: fact_cotacoes.Moeda
+	toColumn: dim_moeda.Moeda
+

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Cotacoes",
+    "path": "/Files",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Files/Cotacoes",
+        "itemId": "e4f1e9e8-f34d-bcff-4847-1640bf702687",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  }
+]

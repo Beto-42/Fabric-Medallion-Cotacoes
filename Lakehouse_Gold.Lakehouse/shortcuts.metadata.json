@@ -1,0 +1,28 @@
+[
+  {
+    "name": "dim_moeda",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dim_moeda",
+        "itemId": "e4f1e9e8-f34d-bcff-4847-1640bf702687",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  },
+  {
+    "name": "cotacoes",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/cotacoes",
+        "itemId": "b1287519-f078-a853-4095-022345ce5419",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  }
+]
