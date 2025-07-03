@@ -118,8 +118,8 @@ spark.sql("""
 
 from notebookutils import mssparkutils
 
-origem = f"abfss://Medallion@onelake.dfs.fabric.microsoft.com/Lakehouse_Bronze.Lakehouse/Files/Cotacoes/Novos"  
-destino = f"abfss://Medallion@onelake.dfs.fabric.microsoft.com/Lakehouse_Bronze.Lakehouse/Files/Cotacoes/Carregados/" 
+origem = "abfss://Medallion@onelake.dfs.fabric.microsoft.com/Lakehouse_Bronze.Lakehouse/Files/Cotacoes/Novos"  
+destino = "abfss://Medallion@onelake.dfs.fabric.microsoft.com/Lakehouse_Bronze.Lakehouse/Files/Cotacoes/Carregados/" 
 
 if not mssparkutils.fs.exists(destino):
     mssparkutils.fs.mkdirs(destino)
